@@ -1,0 +1,848 @@
+/* 
+Информация о таблице стилей для олимпиады МУИТ
+Файл создан: 12.10.2012
+Последнее обновление: 09.05.2013
+Автор: Miropolskiy Vadim
+*/
+
+@import url(./reset.css);
+
+body {
+padding:0;
+margin:0;
+color:#555;
+font-size:20px;
+background:url(../ru/images/bodyBg.jpg);
+}
+
+#wrapper {
+width:1000px;
+min-width:1000px;
+margin:0 auto;
+}
+
+#header {
+margin-bottom:15px;
+}
+
+#header p#langLinks {
+padding:7px;
+text-align:right;
+}
+
+#header a {
+text-decoration:none;
+color:#555;
+}
+
+#header a:hover, #header a:active {
+text-decoration:underline;
+}
+
+#header object {
+margin:0;
+padding:0;
+}
+
+#content {
+margin:30px auto;
+}
+
+img {
+border:none;
+}
+
+#blockWithSticker{
+background:#E9E9E9;
+width:730px;/*CHANGEABLE*/
+padding:20px 20px 0 100px; /*CHANGEABLE*/
+margin:0 auto 20px auto;
+position:relative;
+}
+
+	#blockWithSticker #aboutSeoulSticker, #blockWithSticker #destinationsSticker, 
+	#blockWithSticker #locAndWeatherSticker {
+	position:absolute;
+	top:20px;
+	left:-17px;
+	}
+
+	#blockWithSticker p {
+	color:#555;
+	font:12pt Tahoma, Geneva, sans-serif;
+	text-align:justify;
+	padding:0 0 20px 0;
+	margin:0;
+	}
+
+#blockWithSticker2{
+background:#E9E9E9;
+width:630px;/*CHANGEABLE*/
+padding:20px 0 20px 130px; /*CHANGEABLE*/
+margin:20px 0 0 190px;
+position:relative;
+}
+
+	#blockWithSticker2 #top5Sticker {
+	position:absolute;
+	top:20px;
+	left:-17px;
+	}
+	
+	#blockWithSticker2 .destination, #blockWithSticker2 .leisure {
+	min-height:158px;
+	margin-bottom:20px;
+	position:relative;
+	}
+	
+	#blockWithSticker2 .destination img, #blockWithSticker2 .leisure img{
+	float:left;
+	}
+	
+	#blockWithSticker2 .destination h1, #blockWithSticker2 .leisure h1 {
+	width:360px;
+	background:#D3E584;
+	color:#636363;	
+	font:bold 16pt Tahoma, Geneva, sans-serif;
+	padding:5px;
+	margin-left:260px;
+	}
+	
+	#blockWithSticker2 .destination p.desc, #blockWithSticker2 .leisure p.desc{
+	width:340px;
+	text-align:justify;
+	color:#555;
+	margin-left:260px;
+	font:12pt Tahoma, Geneva, sans-serif;
+	padding:0 10px 10px 10px;
+	}
+	
+	#blockWithSticker2 .destination p.link, #blockWithSticker2 .leisure p.link{
+	width:340px;
+	padding:5px;
+	margin-left:260px;
+	font:bold 10pt Tahoma, Geneva, sans-serif;
+	text-align:right;
+	}
+	
+	#blockWithSticker2 .destination p.link a, #blockWithSticker2 .leisure p.link a{
+	color:#636363;
+	text-decoration:none;
+	}
+	
+	#blockWithSticker2 .destination p.link a:hover, #blockWithSticker2 .destination p.link a:active{
+	color:#B6C867;
+	text-decoration:underline;
+	}
+	
+.block850{
+width:850px;
+margin:0 auto 20px auto;
+background:#E9E9E9;
+}
+
+.block850_2{
+width:810px;
+margin:0 auto 20px auto;
+padding:20px 20px 0 20px;
+}
+
+	.block850_2 .block520{	
+	width:577px;
+	margin:0 0 0 233px;
+	}
+	
+	.block850_2 .block700{	
+	width:700px;
+	margin:0 0 20px 80px;	
+	}
+	
+	.block850_2 .seasonImg{
+	float:left;
+	}
+	
+	.block850_2 .season{
+	font:1.3em Tahoma, Geneva, sans-serif;
+	width:615px;
+	background:#94CBD8;
+	margin:0 0 0 175px;
+	padding:2px 10px 2px 10px;
+	}
+	
+	.block850_2 .seasonDesc{
+	margin-left:175px;
+	margin-top:7px;
+	width:615px;
+	min-height:90px;
+	}
+	
+	.block850_2 hr {
+	color:#555;
+	background-color:#555;
+	height:2px;
+	}
+	
+	.block850_2 h1{	
+	margin-bottom:0;
+	color:#555;
+	font:1.7em Tahoma, Geneva, sans-serif;
+	text-align:justify;	
+	}
+	
+	.block850_2 p{	
+	color:#555;
+	font:12pt Tahoma, Geneva, sans-serif;
+	text-align:justify;
+	padding:0 0 20px 0;
+	margin:0;
+	}
+	
+	.block850_2 #detailMap {
+	float:left;
+	}
+	
+	.videoPreview {
+	height:160px;
+	padding:20px 0 20px 30px;
+	width:229px;
+	float:left;
+	margin-right:20px;
+	}
+	
+	.videoPreview  p{
+	text-align:center;	
+	font:bold 10pt Tahoma, Geneva, sans-serif;
+	}
+	
+	.videoPreview  p a{
+	color:#555;
+	text-decoration:none;
+	}
+	
+	.videoPreview  p a:hover, .videoPreview  p a:active{
+	color:#0FA0BF;
+	text-decoration:underline;
+	}
+	
+	.videoPreview#selected {		
+	background:url(../ru/images/seoul_in_images/pattern.jpg) repeat-y;
+	}
+	
+	.videoPreview img:hover {
+	outline:5px solid #0FA0BF;
+	}
+	
+	.videoPreview img#selected {
+	outline:5px solid #0FA0BF;
+	}
+
+#culture_interview {
+color:#FFF;
+font:1.7em Tahoma, Geneva, sans-serif;
+padding:0;
+margin:0 0 4px 0;
+}
+
+#hr_enter, .block850_2 .hr_enter {
+color:#D389C6;
+background-color:#D389C6;
+height:3px;
+margin:12px 0 18px 0;
+border:none;
+}
+
+#h1_enter, .block850_2 .h1_enter {
+color:#555;
+font:1.7em Tahoma, Geneva, sans-serif;
+padding:0;
+margin:0;
+}
+
+.numberring {
+font-size:14pt;
+font-weight:bold;
+color:#FBB562;
+}
+
+#block650{
+background:#E9E9E9;
+width:680px;
+padding:20px 0 20px 20px;
+margin-left:225px;
+}
+
+	#block650 .child {
+	margin-bottom:20px;
+	}
+	
+		#block650 .child img{
+		float:left;
+		margin-right:15px;
+		}
+	
+		#block650 .child h1 {
+		background:#ED869F;
+		color:#636363;	
+		font:bold 16pt Tahoma, Geneva, sans-serif;
+		padding:3px 0 3px 5px;
+		width:410px;
+		margin-left:265px;
+		}
+	
+		#block650 .child p.desc{
+		text-align:justify;
+		color:#555;
+		font:12pt Tahoma, Geneva, sans-serif;
+		padding:0 20px 0 275px;
+		}
+	
+		#block650 .child p.link{
+		font:bold 10pt Tahoma, Geneva, sans-serif;
+		text-align:right;
+		padding-right:20px;
+		}
+	
+		#block650 .child p.link a{
+		color:#636363;
+		text-decoration:none;
+		}
+	
+		#block650 .child p.link a:active, #block650 .child p.link a:hover {
+		color:#ED869F;
+		text-decoration:underline;
+		}
+		
+#castTable {
+width:100%;
+}
+
+#castTable td{
+text-align:center;
+padding-bottom:20px;
+}
+
+#castTable td p {
+color:#555;		
+font:12pt Tahoma, Geneva, sans-serif;
+text-align:center;
+padding:0;
+}
+
+#castTable td p.name {
+font-weight:bold;
+margin-top:10px;
+}
+	
+	.block810 .child p{
+	color:#555;		
+	font:12pt Tahoma, Geneva, sans-serif;
+	}
+		
+		.block810 .child p:first-child, .bold {
+		font-weight:bold;
+		}
+		
+.admFeeTable {
+border-collapse:collapse;
+margin-bottom:20px;
+}
+
+.admFeeTable, .admFeeTable th, .admFeeTable td {
+border:1px solid #555;
+text-align:center;
+color:#555;		
+font:12pt Tahoma, Geneva, sans-serif;
+}
+
+.admFeeTable th, .admFeeTable td {
+padding:5px;
+}
+
+.admFeeTable th {
+font-weight:bold;
+}
+
+.block850_2 a {
+color:#555;
+font-weight:bold;
+text-decoration:none;
+}
+
+.block850_2 a:hover, .block850_2 a:active {
+text-decoration:underline;
+}
+
+.bold {
+font-weight:bold;
+}
+
+.foodBlock {
+background:rexd;
+min-height:195px;
+margin-bottom:20px;
+}
+
+
+.foodDesc {
+padding-top:10px !important;
+}
+
+.foodImg {
+float:left;
+margin:0 20px 0 0;
+}
+
+#block500 {
+background:#E9E9E9;
+width:420px;
+padding:10px 30px 10px 30px;
+margin:0 auto;
+position:relative;
+}
+
+p {
+margin:5px 0;
+}
+
+input {
+margin-bottom:20px;
+font-size:20px;
+}
+
+input[type="text"], input[type="password"] {
+height:34px;
+width:410px;
+margin-top:5px;
+font-family:Tahoma, Geneva, sans-serif;
+padding:5px;
+}
+
+input[type="radio"] {
+margin-top:5px;
+}
+
+input[type="submit"] {
+padding:15px 25px;
+margin:10px 0 0 0;
+}
+
+h1 {
+font-size:32px;
+font-weight:bold;
+margin:20px 0 20px 0;
+}
+
+.redFont {
+color:#F00;
+}
+
+p.submit {
+text-align:right;
+}
+
+#errorBlock {
+background:#E9E9E9;
+width:500px;
+margin:0 auto 30px auto;
+border:2px solid #C00;
+}
+
+#errorBlock h2 {
+background:#C00;
+color:#FFF;
+font-weight:bold;
+font-size:22px;
+padding:8px;
+}
+
+#errorBlock p {
+padding:5px 15px;
+}
+
+a {
+text-decoration:none;
+color:#0057B9;
+}
+
+a:hover, a:active {
+text-decoration:underline;
+}
+
+#block900 {
+width:830px;
+padding:20px 35px;
+background:#E9E9E9;
+margin:0 auto;
+min-height:295px;
+position:relative;
+}
+
+.user {
+display:inline-block;
+margin:0 5px 20px 6px;
+}
+
+.user p {
+text-align:center;
+}
+
+.user a{
+color:#555;
+}
+
+.jquery-spoiler {
+width:505px;
+margin:30px 0 20px 325px;
+background:#D9D9D9;
+}
+
+.jquery-spoiler a {
+display:block;
+color:#555;
+font-weight:bold;
+padding:10px;
+border-bottom:1px solid #E9E9E9;
+}
+
+.jquery-spoiler a:hover {
+background:#0F9FBF;
+color:#FFF;
+}
+
+.invisible {
+padding:25px 35px;
+}
+
+.profileImage {
+float:left;
+margin-right:40px;
+}
+
+#logoutLink {
+position:absolute;
+top:9px;
+right:0;
+}
+
+#logoutLink a {
+color:#555;
+padding:10px;
+font-weight:bold;
+}
+
+#logoutLink a:hover {
+background:#AC2222;
+color:#FFF;
+}
+
+#messageTable {
+width:830px;
+background:#D9D9D9;
+border:1px solid #AAA;
+border-collapse:collapse;
+}
+
+#messageTable tr {
+margin-bottom:10px;
+border-bottom:1px solid #AAA;
+}
+
+#messageTable th, #messageTable td {
+padding:10px;
+text-align:center;
+vertical-align:middle;
+border:1px solid #AAA;
+}
+
+#messageTable th {
+font-weight:bold;
+font-size:24px;
+
+}
+
+textarea {
+width:489px;
+padding:5px;
+font-size:20px;
+font-family:Tahoma, Geneva, sans-serif;
+}
+
+textarea#description {
+width:817px;
+}
+
+textarea#reviewText {
+width:797px;
+}
+
+form[action="./new_post.php"] {
+margin-top:30px;
+}
+
+#hotelListTable{
+width:100%;
+border-collapse:collapse;
+}
+			
+#hotelListTable tr:nth-child(even){
+background:#E9E9E9;
+}
+			
+#hotelListTable td, #hotelListTable th{
+text-align:center;
+vertical-align:middle;
+padding:10px;
+color:#555;		
+font-family:Tahoma, Geneva, sans-serif;
+}
+			
+#hotelListTable th{
+background:#B9B9B9 url(../ru/images/accomodation/pattern.jpg) repeat-x;
+}
+
+.noRating {
+color:#555;
+background-color:#555;
+border:none;
+height:3px;
+width:20px;
+margin:0 auto;
+}
+			
+.low, .medium, .high {
+padding:8px;
+margin:0 auto 0 auto;
+font-weight:bold;
+font-size:14pt;
+}
+			
+.low {
+background:#F7EAEA;
+color:#A87575;
+}
+			
+.medium {
+background:#FCF5C8;
+color:#C3B453;
+}
+			
+.high {
+background:#E8F7E1;
+color:#66A449;
+}
+
+.location {
+font-size:10pt;
+}
+			
+#hotelListTable td:last-child {
+font-size:16px;
+}
+			
+#hotelListTable td a.tenpt {
+font-size:10pt;
+}
+			
+.review {
+background:#D9D9D9;
+padding:20px 20px 0 20px;
+}
+
+h2, h3 {
+font-weight:bold;
+}
+
+h2 {
+font-size:26px;
+}
+
+h3 {
+font-size:22px;
+}
+
+.review img {
+float:left;
+margin:0 20px 0px 0;
+}
+
+.review .low, .review .medium, .review .high {
+float:right;
+}
+
+.review .reviewText {
+width:100%;
+}
+
+p.loginRequest {
+background:#D9D9D9;
+padding:15px;
+text-align:center;
+margin-bottom:20px;
+}
+
+.photo {
+display:inline-block;
+margin-bottom:15px;
+background:black;
+}
+
+.photo img:hover{
+opacity:0.8;
+}
+
+.languages {
+background:#E9E9E9 url(../ru/images/bg.jpg);
+}
+
+.languages table {
+background:url(../ru/images/stripe.jpg) top center no-repeat;
+width:100%;
+}
+
+.languages table td {
+width:33%;
+text-align:center;
+vertical-align:middle;
+padding:10px;;
+}
+
+.block850_2 .hr_enterGreen {
+height:3px;
+margin:12px 0 18px 0;
+color:#B6C867;
+background-color:#B6C867;
+border:none;
+}
+
+.numberringGreen {
+font-size:14pt;
+font-weight:bold;
+color:#B6C867;
+}
+
+.block850_2 .hr_enterPink {
+height:3px;
+margin:12px 0 18px 0;
+color:#ED869F;
+background-color:#ED869F;
+border:none;
+}
+
+.numberringPink {
+font-size:14pt;
+font-weight:bold;
+color:#ED869F;
+}
+
+.hr_enterOrange {
+height:3px;
+margin:12px 0 18px 0;
+color:#FF9444;
+background-color:#FF9444;
+border:none;
+}
+
+.numberringOrange {
+font-size:14pt;
+font-weight:bold;
+color:#FF9444;
+}
+
+.block850_2 .hr_enterYellow {
+height:3px;
+margin:12px 0 18px 0;
+color:#F6D74D;
+background-color:#F6D74D;
+border:none;
+}
+
+.block850_2 .hr_enterBlue {
+height:3px;
+margin:12px 0 18px 0;
+color:#0F9FBF;
+background-color:#0F9FBF;
+border:none;
+}
+
+#block650 .child p.link2{
+font:bold 10pt Tahoma, Geneva, sans-serif;
+text-align:right;
+padding-right:20px;
+}
+
+#block650 .child p.link2 a{
+color:#636363;
+text-decoration:none;
+}
+	
+#block650 .child p.link2 a:active, #block650 .child p.link2 a:hover {
+color:#D389C6;
+text-decoration:underline;
+}
+		
+p.header {
+padding-bottom:4px;
+text-align:center;
+font-weight:bold;
+}
+			
+p.img {
+text-align:center;
+padding:5px;
+}
+
+.admFeeTable2 {
+width:100%;
+border:1px solid #555;
+border-collapse:collapse;
+margin-bottom:20px;
+}
+			
+.admFeeTable2 td {
+font-weight:bold;
+border:2px solid #555;
+height:30px;
+text-align:center;
+vertical-align:middle;
+}
+
+#sitemap ul {
+padding-left:30px;
+}
+
+#sitemap ul li {
+padding:10px 0;
+}
+
+#sitemap > li {
+padding:25px;
+text-transform:uppercase;
+}
+
+#sitemap > li ul {
+text-transform:none;
+}
+
+#sitemap li.blue {
+background:#0F9FBF;
+}
+
+#sitemap li.green {
+background:#CAE459;
+}
+
+#sitemap li.pink {
+background:#ED869F;
+}
+
+#sitemap li.yellow {
+background:#F6D74D;
+}
+
+#sitemap li.purple {
+background:#D389C6;
+}
+
+#sitemap li.orange {
+background:#FBB562;
+}

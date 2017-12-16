@@ -1,0 +1,120 @@
+/*
+$('a').on('click', function(e){
+				e.preventDefault();
+			  });
+*/
+
+#mmenu {
+height:60px;
+box-shadow:0 1px 1px rgba(20, 20, 20, 0.2);
+font-weight:bold;
+background:#E9E9E9 url(../ru/images/stripe.jpg) center bottom no-repeat;
+}
+
+#mmenu li {
+float:left;
+position:relative;
+font-size:26px;
+text-shadow:1px 1px 0 #FFF;
+-webkit-transition:all 0.3s linear;
+-moz-transition:all 0.3s linear;
+-o-transition:all 0.3s linear;
+transition:all 0.3s linear;
+}
+
+#mmenu li a {
+display:block;
+padding:0 16.75px;
+line-height:60px;
+text-decoration:none !important;
+-webkit-transition:all 0.3s linear;
+-moz-transition:all 0.3s linear;
+-o-transition:all 0.3s linear;
+transition:all 0.3s linear;
+color:#676767;
+}
+
+#mmenu li:hover > a {
+color:#FFF;
+}
+
+#mmenu li.blue:hover {
+background:#0F9FBF;
+}
+
+#mmenu li.green:hover {
+background:#CAE459;
+}
+
+#mmenu li.pink:hover {
+background:#ED869F;
+}
+
+#mmenu li.yellow:hover {
+background:#F6D74D;
+}
+
+#mmenu li.purple:hover {
+background:#D389C6;
+}
+
+#mmenu li.orange:hover {
+background:#FBB562;
+}
+
+#mmenu ul {
+position:absolute;
+top:68px;
+width:280px;
+background:#FFF;
+display:none;
+list-style:none;
+border:1px solid rgba(0, 0, 0, 0.2);
+box-shadow:0 0 5px rgba(0, 0, 0, 0.2);
+z-index:2;
+padding:7px 0;
+}
+
+#mmenu ul:after {
+content:"";
+width:0;
+height:0;
+position:absolute;
+bottom:100%;
+left:8px;
+border-width:0 8px 8px 8px;
+border-style:solid;
+border-color:#fff transparent; 
+}
+
+#mmenu ul:before {
+content:"";
+width:0;
+height:0;
+position:absolute;
+bottom:100%;
+left:4px;
+border-width:0 10px 10px 10px;
+border-style:solid;
+border-color:rgba(0, 0, 0, 0.1) transparent;  
+}
+
+#mmenu ul li { 
+display:block; 
+width:100%;
+font-size:20px; 
+text-shadow:1px 1px 0 #fff;
+}
+
+#mmenu ul li a {
+padding:0 10px;
+-webkit-transition:all 0.2s linear;
+-moz-transition:all 0.2s linear;
+-o-transition:all 0.2s linear;
+transition:all 0.2s linear;
+}
+
+#mmenu ul li a:hover {
+background:#E9E9E9;
+color:#676767;
+}
