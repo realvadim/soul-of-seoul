@@ -1,0 +1,471 @@
+/*@import url(reset.css);*/
+/*Skill contest 2012, South Korea. WWW team - Bram, Samy, Vadim.*/
+
+body {
+padding:0;
+margin:0;
+}
+
+#wrapper {
+width:1000px;
+min-width:1000px;
+margin:0 auto;
+}
+
+#header {
+/*background:#F00;*/ /*!!!!!!!!!!!!!!!*/
+/*height:190px;*/ /*!!!!!!!!!!!!!!!*/
+margin-bottom:15px;
+}
+
+#header object {
+margin:0;
+padding:0;
+}
+
+#footer {
+margin-top:50px;
+}
+
+/*<map id="imgmap2012929145640" name="imgmap2012929145640"><area shape="rect" alt="" title="" coords="847,44,879,77" href="" target="" /><area shape="rect" alt="" title="" coords="891,43,925,76" href="" target="" /><!-- Created by Online Image Map Editor (http://www.maschek.hu/imagemap/index) --></map>
+
+<img src="images/image.jpg" width="400" height="600" alt="Картированное изображение" vspace="20" border="1" usemap="#imagemap">
+	<map id="imagemap" name="imagemap">
+		<area shape="rect" alt="Перейти на Google.com" title="Перейти на Google.com" coords="42,14,286,78" href="http://google.com" target="_blank">
+		<area shape="rect" alt="Новости на Rambler" title="Новости на Rambler" coords="309,16,554,78" href="http://rambler.ru" target="_blank">
+	</map>
+*/
+
+img {
+border:none;
+}
+
+#blockWithSticker{
+background:#E9E9E9;
+width:730px;/*CHANGEABLE*/
+padding:20px 20px 0 100px; /*CHANGEABLE*/
+margin:0 auto 20px auto;
+position:relative;
+}
+
+	#blockWithSticker #aboutSeoulSticker, #blockWithSticker #destinationsSticker, 
+	#blockWithSticker #locAndWeatherSticker {
+	position:absolute;
+	top:20px;
+	left:-17px;
+	}
+
+	#blockWithSticker p {
+	color:#555;
+	font:12pt Tahoma, Geneva, sans-serif;
+	text-align:justify;
+	padding:0 0 20px 0;
+	margin:0;
+	}
+
+#blockWithSticker2{
+background:#E9E9E9;
+width:630px;/*CHANGEABLE*/
+padding:20px 0 20px 130px; /*CHANGEABLE*/
+margin:20px 0 0 190px;
+position:relative;
+}
+
+	#blockWithSticker2 #top5Sticker {
+	position:absolute;
+	top:20px;
+	left:-17px;
+	}
+	
+	#blockWithSticker2 .destination, #blockWithSticker2 .leisure {
+	min-height:158px;
+	/*background:#C00;*/
+	margin-bottom:20px;
+	position:relative;
+	}
+	
+	#blockWithSticker2 .destination img, #blockWithSticker2 .leisure img{
+	float:left;
+	/*margin-right:20px;*/
+	}
+	
+	#blockWithSticker2 .destination h1, #blockWithSticker2 .leisure h1 {
+	width:360px;
+	background:#D3E584;
+	color:#636363;	
+	font:bold 16pt Tahoma, Geneva, sans-serif;
+	padding:5px;
+	margin-left:260px;
+	}
+	
+	#blockWithSticker2 .destination p.desc, #blockWithSticker2 .leisure p.desc{
+	width:340px;
+	text-align:justify;
+	color:#555;
+	/*background:#0F0;*/
+	margin-left:260px;
+	font:12pt Tahoma, Geneva, sans-serif;
+	padding:0 10px 10px 10px;
+	}
+	
+	#blockWithSticker2 .destination p.link, #blockWithSticker2 .leisure p.link{
+	width:340px;
+	padding:5px;
+	margin-left:260px;
+	font:bold 10pt Tahoma, Geneva, sans-serif;
+	text-align:right;
+	/*position:absolute;
+	bottom:0;*/
+	}
+	
+	#blockWithSticker2 .destination p.link a, #blockWithSticker2 .leisure p.link a{
+	color:#636363;
+	text-decoration:none;
+	/*position:absolute;
+	bottom:0;*/
+	}
+	
+	#blockWithSticker2 .destination p.link a:hover, #blockWithSticker2 .destination p.link a:active{
+	color:#B6C867;
+	text-decoration:underline;
+	/*position:absolute;
+	bottom:0;*/
+	}
+	
+.block850{
+width:850px;
+margin:0 auto 20px auto;
+background:#E9E9E9;
+}
+
+.block850_2{
+width:810px;
+margin:0 auto 20px auto;
+padding:20px 20px 0 20px;
+}
+
+	.block850_2 .block520{	
+	width:577px;
+	margin:0 0 0 233px;
+	}
+	
+	.block850_2 .block700{	
+	width:700px;
+	margin:0 0 20px 80px;	
+	}
+	
+	.block850_2 .block700 #spring{
+	/*float:left;*/
+
+	}
+	
+	.block850_2 .block700 h1.season{
+	font:1.3em Tahoma, Geneva, sans-serif;
+	/*margin-left:180px;*/
+	float:right;
+	/*width:200px;*/
+	width:505px;
+	background:#94CBD8;
+	margin:0;
+	padding:2px 10px 2px 10px;
+	}
+	
+	.block850_2 .block700 p.seasonDesc{
+	margin-left:185px;
+	margin-top:5px;
+	float:right;
+	/*width:200px;*/
+	}
+	
+	.block850_2 hr {
+	color:#555;
+	background-color:#555;
+	height:2px;
+	}
+	
+	.block850_2 h1{	
+	margin-bottom:0;
+	color:#555;
+	font:1.7em Tahoma, Geneva, sans-serif;
+	text-align:justify;	
+	}
+	
+	.block850_2 p{	
+	color:#555;
+	font:12pt Tahoma, Geneva, sans-serif;
+	text-align:justify;
+	padding:0 0 20px 0;
+	margin:0;
+	}
+	
+	/*.block850_2 .block520 p{	
+	
+	}*/
+	
+	.block850_2 #detailMap {
+	float:left;
+	}
+	
+	.videoPreview {
+	height:160px;
+	padding:20px 0 20px 30px;
+	width:229px;
+	
+	float:left;
+	margin-right:20px;
+	}
+	
+	.videoPreview  p{
+	text-align:center;	
+	font:bold 10pt Tahoma, Geneva, sans-serif;
+	}
+	
+	.videoPreview  p a{
+	color:#555;
+	text-decoration:none;
+	}
+	
+	.videoPreview  p a:hover, .videoPreview  p a:active{
+	color:#0FA0BF;
+	text-decoration:underline;
+	}
+	
+	.videoPreview#selected {		
+	background:url(../images/seoul_in_images/pattern.jpg) repeat-y;
+	}
+	
+	.videoPreview img:hover {
+	outline:5px solid #0FA0BF;
+	}
+	
+	.videoPreview img#selected {
+	outline:5px solid #0FA0BF;
+	}
+
+#culture_interview {
+color:#FFF;
+font:1.7em Tahoma, Geneva, sans-serif;
+padding:0;
+/*padding:5px 0 0 10px;*/
+margin:0 0 4px 0;
+}
+
+#hr_enter, .block850_2 .hr_enter {
+color:#D389C6;
+background-color:#D389C6;
+height:2px;
+}
+
+#h1_enter, .block850_2 .h1_enter {
+color:#555;
+font:1.7em Tahoma, Geneva, sans-serif;
+padding:0;
+margin:0;
+}
+
+/*.block850_2 .h1_unesco {
+color:#D389C6;
+font:1.7em Tahoma, Geneva, sans-serif;
+padding:0;
+margin:0;
+}*/
+
+.numberring {
+font-size:14pt;
+font-weight:bold;
+color:#FBB562;
+}
+
+#block650{
+background:#E9E9E9;
+width:680px;
+padding:20px 0 20px 20px;
+margin-left:225px;
+}
+
+	#block650 .child {
+	margin-bottom:20px;
+	/*background:#0F0;*/ /*UBRATTTTTTT*/
+	/*min-height:165px;*/
+	}
+	
+		#block650 .child img{
+		float:left;
+		margin-right:15px;
+		}
+	
+		#block650 .child h1 {
+		background:#ED869F;
+		color:#636363;	
+		font:bold 16pt Tahoma, Geneva, sans-serif;
+		padding:3px 0 3px 5px;
+		width:410px;
+		margin-left:265px;
+		}
+	
+		#block650 .child p.desc{
+		text-align:justify;
+		color:#555;
+		/*background:#00F;*/ /*UBRATTTTTTT*/
+		font:12pt Tahoma, Geneva, sans-serif;
+		padding:0 20px 0 275px;
+		}
+	
+		#block650 .child p.link{
+		font:bold 10pt Tahoma, Geneva, sans-serif;
+		text-align:right;
+		padding-right:20px;
+		/*background:#FF0;*/ /*UBRATTTTTTT*/
+		}
+	
+		#block650 .child p.link a{
+		color:#636363;
+		text-decoration:none;
+		}
+	
+		#block650 .child p.link a:active, #block650 .child p.link a:hover {
+		color:#ED869F;
+		text-decoration:underline;
+		}
+		
+#castTable {
+width:100%;
+/*border:1px solid #F00;
+border-collapse:collapse;*/
+}
+
+#castTable td{
+/*border:1px solid #F00;*/
+text-align:center;
+padding-bottom:20px;
+}
+
+#castTable td p {
+color:#555;		
+font:12pt Tahoma, Geneva, sans-serif;
+text-align:center;
+padding:0;
+}
+
+#castTable td p.name {
+font-weight:bold;
+margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.block810 {
+background:#00F;
+height:200px;
+margin-bottom:20px;
+}
+
+	.block810 .child{
+	background:#0F0;
+	width:150px;
+	height:100%;
+	margin-right:15px;
+	float:left;
+	}
+	
+	
+	
+	
+	
+	.block810 .child img{
+		float:left;
+		margin-right:15px;
+		}*/
+	
+		/*#block650 .child h1 {
+		background:#ED869F;
+		color:#636363;	
+		font:bold 16pt Tahoma, Geneva, sans-serif;
+		padding:3px 0 3px 5px;
+		width:410px;
+		margin-left:265px;
+		}*/
+	
+		.block810 .child p{
+		/*text-align:justify;*/
+		color:#555;		
+		font:12pt Tahoma, Geneva, sans-serif;
+		/*padding:0 20px 0 275px;*/
+		}
+		
+		.block810 .child p:first-child{
+		font-weight:bold;
+		}
+	
+		/*#block650 .child p.link{
+		font:bold 10pt Tahoma, Geneva, sans-serif;
+		text-align:right;
+		padding-right:20px;
+		background:#FF0;
+		}
+	
+		#block650 .child p.link a{
+		color:#636363;
+		text-decoration:none;
+		}
+	
+		#block650 .child p.link a:active, #block650 .child p.link a:hover {
+		color:#ED869F;
+		text-decoration:underline;
+		}*/
+		
+.admFeeTable {
+border-collapse:collapse;
+margin-bottom:20px;
+}
+
+.admFeeTable, .admFeeTable th, .admFeeTable td {
+border:1px solid #555;
+text-align:center;
+color:#555;		
+font:12pt Tahoma, Geneva, sans-serif;
+}
+
+.admFeeTable th, .admFeeTable td {
+padding:5px;
+}
+
+.admFeeTable th {
+font-weight:bold;
+}
+
+.block850_2 a {
+color:#555;
+font-weight:bold;
+text-decoration:none;
+}
+
+.block850_2 a:hover, .block850_2 a:active {
+text-decoration:underline;
+}
+
+.bold {
+font-weight:bold;
+}
+
+#foodTable td{
+padding:5px;
+}
